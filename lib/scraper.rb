@@ -12,6 +12,7 @@ class Scraper
 
     def get_courses
       doc=self.get_page.css(".post")
+      binding.pry
 
     end
 
