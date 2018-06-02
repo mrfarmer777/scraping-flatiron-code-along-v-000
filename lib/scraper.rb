@@ -7,11 +7,13 @@ class Scraper
 
     def get_page
       html=open('http://learn-co-curriculum.github.io/site-for-scraping/courses')
-      
+
     end
 
     def get_courses
       doc=self.get_page.css()
+
+    end
 
 
     def print_courses
